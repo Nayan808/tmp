@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 <body>
+
+    
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light okok">
         <div class="container">
             <a class="navbar-brand" href="../index.html">EduPlatform</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -32,9 +34,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="testimonials.html">Testimonials</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+                    
                 </ul>
                 <button class="theme-toggle btn btn-outline-primary ms-2" onclick="toggleTheme()">
                     <i class="bi bi-moon-fill"></i>
@@ -43,57 +43,86 @@
         </div>
     </nav>
 
-    <!-- Courses Header -->
-    <section class="py-5 bg-light">
-        <div class="container">
-            <h1 class="text-center mb-5">Our Courses</h1>
-            <div class="row g-4">
-                <!-- Course Card 1 -->
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="../ss.png" class="card-img-top" alt="Web Development">
-                        <div class="card-body">
-                            <h5 class="card-title">Web Development</h5>
-                            <p class="card-text">Learn modern web development with HTML, CSS, and JavaScript.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="h5 mb-0">$99.99</span>
-                                <a href="#" class="btn btn-primary">Enroll Now</a>
+        <!-- Featured Courses -->
+        <section id="courses" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Featured Courses</h2>
+                <div class="row g-4">
+                    <!-- Course Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="/tmp/ex.png" class="card-img-top" alt="Web Development">
+                            <div class="card-body">
+                                <h5 class="card-title">Excel</h5>
+                                <p class="card-text">Learn modern Excel,Power Query,Pivot Table.</p>
+                                <a href="pages/courses.html" class="btn btn-primary"> Rs. 1239</a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Course Card 2 -->
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="../ss.png" class="card-img-top" alt="Data Science">
-                        <div class="card-body">
-                            <h5 class="card-title">Data Science</h5>
-                            <p class="card-text">Master data analysis and machine learning fundamentals.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="h5 mb-0">$149.99</span>
-                                <a href="#" class="btn btn-primary">Enroll Now</a>
+                    <!-- Course Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="/tmp/s.png" class="card-img-top" alt="Data Science">
+                            <div class="card-body">
+                                <h5 class="card-title">SQL</h5>
+                                <p class="card-text">Master data and database fundamentals.</p>
+                                <a href="pages/courses.html" class="btn btn-primary">Rs. 3465 </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Course Card 3 -->
-                <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="../ss.png" class="card-img-top" alt="Digital Marketing">
-                        <div class="card-body">
-                            <h5 class="card-title">Digital Marketing</h5>
-                            <p class="card-text">Discover the latest digital marketing strategies and tools.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <span class="h5 mb-0">$79.99</span>
-                                <a href="#" class="btn btn-primary">Enroll Now</a>
+                    <!-- Course Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="/tmp/p.png" class="card-img-top" alt="Digital Marketing">
+                            <div class="card-body">
+                                <h5 class="card-title">Power BI</h5>
+                                <p class="card-text">Discover the latest digital market Business Intelligence tools.</p>
+                                <a href="pages/courses.html" class="btn btn-primary">Rs. 8783</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+        <section id="courses" class="py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Course Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="/tmp/ex.png" class="card-img-top" alt="Web Development">
+                            <div class="card-body">
+                                <h5 class="card-title">Excel</h5>
+                                <p class="card-text">Learn modern Excel,Power Query,Pivot Table.</p>
+                                <a href="pages/courses.html" class="btn btn-primary"> Rs. 1239</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Course Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="/tmp/s.png" class="card-img-top" alt="Data Science">
+                            <div class="card-body">
+                                <h5 class="card-title">SQL</h5>
+                                <p class="card-text">Master data and database fundamentals.</p>
+                                <a href="pages/courses.html" class="btn btn-primary">Rs. 3465 </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Course Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <img src="/tmp/p.png" class="card-img-top" alt="Digital Marketing">
+                            <div class="card-body">
+                                <h5 class="card-title">Power BI</h5>
+                                <p class="card-text">Discover the latest digital market Business Intelligence tools.</p>
+                                <a href="pages/courses.html" class="btn btn-primary">Rs. 8783</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container">
